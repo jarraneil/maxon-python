@@ -1,11 +1,11 @@
 import struct
 import time
 from ubinascii import hexlify
-from machine import Pin, ADC, PWM, UART, I2C
 
 class EPOS4:
     #this class represents a Maxon EPOS4 drive
-    #if we had a full OS we would use the Maxon linux drivers that would perform these functions
+    #if we had a full OS we would use the Maxon linux drivers with ctypes that would perform these functions
+    #this is for embedded applications using pure micropython
     #the serial communication is described in EPOS4 communications guide 
     #included CRC, byte stuffing, preamble
 
