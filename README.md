@@ -12,6 +12,7 @@ It is not yet a full implementation but has the features required to achieve a s
 - moving with a given velocity, following an acceleration profile
 - moving to a given position, following a velocity and acceleration profile
 - basic homing (two methods)
+  
 It is known to work running on an RP2040 talking to an EPOS4 50/8 drive
 ## installation and use
 1. download the drivers.py file
