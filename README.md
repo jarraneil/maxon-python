@@ -27,3 +27,5 @@ Note that for proper operation the EPOS4 needs to first be configured and tuned 
 [EPOS4 Firmware Specification](https://www.maxongroup.com/medias/sys_master/8821690564638.pdf)
 
 Chapter 7 in [EPOS4 Application Notes](https://www.maxongroup.com/medias/sys_master/8823917936670.pdf)
+
+You can also contact the [Maxon support team]( https://support.maxongroup.com) directly; they are always very helpful and supportive.
