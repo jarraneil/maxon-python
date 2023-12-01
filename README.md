@@ -19,7 +19,8 @@ Note that for proper operation the EPOS4 needs to first be configured and tuned 
 
 1. download the drivers.py file
 2. import it into your project using `from drivers import EPOS4`
-3. instantiate an EPOS4 object by passing it a prevously created serial port `serial = UART(0, baudrate=115200, bits=8, parity=None, stop=1)`. Followed by `epos = EPOS4(serial)`
+3. Create a serial port to talk to the device using the built in machine library `from machine import UART` followed by for example`serial = UART(0, baudrate=115200, bits=8, parity=None, stop=1)`
+5. instantiate an EPOS4 object by passing it a prevously created serial port `epos = EPOS4(serial)`
 
 ## Useful resources
 [EPOS4 Communication Guide](https://www.maxongroup.com/medias/sys_master/root/8834324922398/EPOS4-Communication-Guide-En.pdf)
